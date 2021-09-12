@@ -70,5 +70,3 @@ def check_total(data):
 
     total = any(total_word in data for total_word in total_words) and not any(total_word in data for total_word in non_total_words)
     return total
-
-print(extract_amount('./data/receipt16'))
